@@ -2,9 +2,8 @@ import React, { Component } from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import { Security, SecureRoute, ImplicitCallback } from "@okta/okta-react";
 
-import NavBar from "./components/Layout/NavBar/NavBar";
-import Home from "./components/pages/Home";
-import ReportAProblem from "./components/pages/ReportAProblem";
+import Home from "./components/pages/Home/Home";
+import ReportAProblem from "./components/pages/ReportAProblem/ReportAProblem";
 import Login from "./components/auth/Login";
 
 import "./App.css";

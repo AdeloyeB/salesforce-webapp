@@ -34,11 +34,11 @@ export default withAuth(
     render() {
       if (this.state.authenticated === null) return null;
 
-      const button = this.state.authenticated ? (
-        <button onClick={this.logout}>Logout</button>
-      ) : (
-        <button onClick={this.login}>Login</button>
-      );
+      // const button = this.state.authenticated ? (
+      //   <button onClick={this.logout}>Logout</button>
+      // ) : (
+      //   <button onClick={this.login}>Login</button>
+      // );
 
       return (
         <nav className="navbar navbar-expand-sm navbar-light bg-light mb-4">
