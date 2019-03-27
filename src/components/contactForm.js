@@ -1,80 +1,81 @@
 import React, { Component } from "react";
+import "./pages/ReportAProblem/ReportAProblem.css";
 
-export class contactForm extends Component {
+export class ContactForm extends Component {
   state = {
-    email: {
-      recipient: "",
-      sender: "",
-      subject: "",
-      text: ""
-    }
+    currentUserName: "",
+    currentUserEmail: ""
   };
 
-  sendEmail = _ => {
-    const { email } = this.state;
-    fetch(
-      `http:localhost:3000/reportaproblem?recipient=${email.recipient}&sender=${
-        email.sender
-      }&topic=${email.subject}&text=${email.text}`
-    ) //query string url
-      .catch(err => console.error(err));
-  };
+  async componentDidMount() {
+    const idToken = JSON.parse(localStorage.getItem("okta-token-storage"));
+    this.setState({
+      currentUserEmail: idToken.idToken.claims.email,
+      currentUserName: idToken.idToken.claims.name
+    });
+  }
 
   render() {
-    const { email } = this.state;
-    const spacer = {
-      margin: 10
-    };
-    const textArea = {
-      borderRadius: 4
-    };
+    const { currentUserEmail, currentUserName } = this.state;
     return (
-      <div>
-        <div style={{ marginTop: 10 }}>
-          <h2> Send Email </h2>
-          <label> Recipient </label>
-          <br />
+      <section>
+        <form
+          className="text-center border border-light p-4"
+          action="https://formcarry.com/s/McuktKju6em"
+          method="POST"
+          accept-charset="UTF-8"
+        >
+          <p className="h4 mb-4">Report an Issue</p>
+
           <input
-            value={email.recipient}
-            onChange={e =>
-              this.setState({ email: { ...email, recipient: e.target.value } })
-            }
+            type="text"
+            id="ContactFormName"
+            className="form-control mb-4 required"
+            placeholder="Name"
+            name="name"
+            value={currentUserName}
           />
-          <div style={spacer} />
-          <label> Sender </label>
-          <br />
+
           <input
-            value={email.sender}
-            onChange={e =>
-              this.setState({ email: { ...email, sender: e.target.value } })
-            }
+            type="email"
+            id="ContactFormEmail"
+            className="form-control mb-4 required"
+            placeholder="E-mail"
+            name="email"
+            value={currentUserEmail}
           />
-          <div style={spacer} />
-          <label> Subject </label>
-          <br />
-          <input
-            value={email.subject}
-            onChange={e =>
-              this.setState({ email: { ...email, subject: e.target.value } })
-            }
-          />
-          <div style={spacer} />
-          <label> Message </label>
-          <br />
-          <textarea
-            rows={3}
-            value={email.text}
-            style={textArea}
-            onChange={e =>
-              this.setState({ email: { ...email, text: e.target.value } })
-            }
-          />
-          <div style={spacer} />
-          <button onClick={this.sendEmail}> Send Email </button>
-        </div>
-      </div>
+
+          <label>Issue:</label>
+          <select className="browser-default custom-select mb-4">
+            <option value="" disabled>
+              Issue Option:
+            </option>
+            <option value="1" selected>
+              Cannot see certain Dashboard
+            </option>
+            <option value="2">Reset Password</option>
+            <option value="3">Meeting Notes</option>
+            <option value="4">Capital Projects</option>
+            <option value="5">Data Subject Access Rights</option>
+            <option value="6">Other</option>
+          </select>
+
+          <div className="form-group">
+            <textarea
+              className="form-control rounded-0"
+              id="FormControlTextarea2"
+              rows="3"
+              placeholder="Message"
+            />
+          </div>
+
+          <button className="btn btn-info btn-block" type="submit">
+            Send
+          </button>
+        </form>
+      </section>
     );
   }
 }
 
-export default contactForm;
+export default ContactForm;

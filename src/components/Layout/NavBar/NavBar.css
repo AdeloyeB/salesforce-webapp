@@ -1,3 +1,25 @@
-.navbar-default {
-    background: none;
+.bg-light {
+    background: #007faa !important;
+}
+
+.nav-link {
+    color: white;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+
+.navbar-light .navbar-brand {
+    color: white;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+
+}
+
+a:hover {
+    color: white;
 }

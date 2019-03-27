@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 import { Security, SecureRoute, ImplicitCallback } from "@okta/okta-react";
 
 import Home from "./components/pages/Home/Home";
+import Training from "./components/pages/MainTrainingPage/Training";
 import ReportAProblem from "./components/pages/ReportAProblem/ReportAProblem";
 import Login from "./components/auth/Login";
 
@@ -31,6 +32,7 @@ class App extends Component {
                 exact={true}
                 component={ReportAProblem}
               />
+              <SecureRoute path="/training" exact={true} component={Training} />
               <Route
                 path="/login"
                 render={() => <Login baseUrl="https://dev-913015.okta.com" />}

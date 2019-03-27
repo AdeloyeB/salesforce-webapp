@@ -6,7 +6,20 @@ import "./NavBar.css";
 
 export default withAuth(
   class NavBar extends Component {
-    state = { authenticated: null };
+    state = {
+      authenticated: null,
+      currentUserName: "",
+      currentUserEmail: ""
+    };
+
+    async componentDidMount() {
+      const idToken = JSON.parse(localStorage.getItem("okta-token-storage"));
+      this.checkAuthentication();
+      this.setState({
+        currentUserEmail: idToken.idToken.claims.email,
+        currentUserName: idToken.idToken.claims.name
+      });
+    }
 
     checkAuthentication = async () => {
       const authenticated = await this.props.auth.isAuthenticated();
@@ -14,10 +27,6 @@ export default withAuth(
         this.setState({ authenticated });
       }
     };
-
-    async componentDidMount() {
-      this.checkAuthentication();
-    }
 
     async componentDidUpdate() {
       this.checkAuthentication();
@@ -28,11 +37,12 @@ export default withAuth(
     };
 
     logout = async () => {
-      this.props.auth.logout("/");
+      this.props.auth.logout("/login");
     };
 
     render() {
       if (this.state.authenticated === null) return null;
+      const { currentUserEmail, currentUserName } = this.state;
 
       // const button = this.state.authenticated ? (
       //   <button onClick={this.logout}>Logout</button>
@@ -41,10 +51,10 @@ export default withAuth(
       // );
 
       return (
-        <nav className="navbar navbar-expand-sm navbar-light bg-light mb-4">
+        <nav className="navbar navbar-fixed-top navbar-expand-sm navbar-light bg-light mb-4">
           <div className="container">
             <Link className="navbar-brand" to="/">
-              Salesforce Portal
+              BL Salesforce Portal
             </Link>
             <button
               className="navbar-toggler"
@@ -62,8 +72,8 @@ export default withAuth(
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link" to="/registration">
-                    Registration
+                  <Link className="nav-link" to="/virtualagent">
+                    Virtual Agent
                   </Link>
                 </li>
                 <li className="nav-item dropdown">
@@ -75,14 +85,20 @@ export default withAuth(
                     aria-haspopup="true"
                     aria-expanded="false"
                   >
-                    User
+                    {currentUserName}
                   </a>
                   <div
                     className="dropdown-menu"
                     aria-labelledby="navbarDropdownMenuLink"
                   >
+                    <Link className="dropdown-item" to="/newsfuser">
+                      Get Salesforce
+                    </Link>
                     <Link className="dropdown-item" to="/reportaproblem">
                       Report a Problem
+                    </Link>
+                    <Link className="dropdown-item" to="/training">
+                      Request Training
                     </Link>
                     <button className="dropdown-item" onClick={this.logout}>
                       Logout

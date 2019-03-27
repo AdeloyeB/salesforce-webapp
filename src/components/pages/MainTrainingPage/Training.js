@@ -1,24 +1,23 @@
 import React, { Component } from "react";
 
+import TrainingJumbo from "../../TrainingJumbo";
+import OneOnOneJumbo from "./OneOnOneJumbo";
 import NavBar from "../../Layout/NavBar/NavBar";
 import Footer from "../../Layout/Footer/Footer";
 
-import ContactForm from "../../ContactForm";
-import ContactJumbo from "../../ContactJumbo";
-
-export class ReportAProblem extends Component {
+export class Training extends Component {
   render() {
     return (
-      <section>
+      <div>
         <NavBar />
         <div className="container">
-          <ContactJumbo />
-          <ContactForm />
+          <TrainingJumbo />
+          <OneOnOneJumbo />
         </div>
         <Footer />
-      </section>
+      </div>
     );
   }
 }
 
-export default ReportAProblem;
+export default Training;
