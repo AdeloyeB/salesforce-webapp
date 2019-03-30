@@ -14,12 +14,20 @@
     color: white;
 }
 
-a {
-    color: white;
-    text-decoration: none;
-
-}
 
 a:hover {
     color: white;
+}
+
+.navBackground {
+    background-color: #007faa;
+}
+
+.dropdownFontColor {
+    color: white
+}
+
+.dropdown-item:focus,
+.dropdown-item:hover {
+    background-color: #007faa;
 }

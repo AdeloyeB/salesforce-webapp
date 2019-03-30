@@ -22,7 +22,7 @@ export class ControlledCarousel extends Component {
           <div className="carousel-item active">
             <img
               className="d-block w-100"
-              src="https://mdbootstrap.com/img/Photos/Slides/img%20(130).jpg"
+              src="https://www.britishland.com/~/media/Images/B/British-Land-V4/redesign-2017/banners/homepage-banner-2018.jpg"
               alt="First slide"
             />
           </div>
@@ -30,7 +30,7 @@ export class ControlledCarousel extends Component {
           <div className="carousel-item">
             <img
               className="d-block w-100"
-              src="https://mdbootstrap.com/img/Photos/Slides/img%20(129).jpg"
+              src="https://www.britishland.com/~/media/Images/B/British-Land-V4/content-images/featured-properties-standard-banners/BL_Banner_496x1500_paddington.jpg"
               alt="Second slide"
             />
           </div>
@@ -38,7 +38,7 @@ export class ControlledCarousel extends Component {
           <div className="carousel-item">
             <img
               className="d-block w-100"
-              src="https://mdbootstrap.com/img/Photos/Slides/img%20(70).jpg"
+              src="https://www.britishland.com/~/media/Images/B/British-Land-V4/content-images/featured-properties-standard-banners/featured-properties-updated-images/meadowhall-2017-main.jpg"
               alt="Third slide"
             />
           </div>

@@ -6,11 +6,13 @@ export class Footer extends Component {
   render() {
     return (
       <footer className="page-footer font-small mdb-color pt-4 bg-background">
-        <div className="container text-center text-md-left">
+        <div className="container text-center text-md-left whiteText">
           <div className="row text-center text-md-left mt-3 pb-3">
             <div className="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
-              <h6 className="text-uppercase mb-4 font-weight-bold whiteText">
-                The British Land Company PLC
+              <h6 className="text-uppercase mb-4 font-weight-bold">
+                <a href="https://www.britishland.com/">
+                  The British Land Company PLC
+                </a>
               </h6>
               <p>Registered in England. Company No: 621920.</p>
             </div>
@@ -19,19 +21,27 @@ export class Footer extends Component {
 
             <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
               <h6 className="text-uppercase mb-4 font-weight-bold whiteText">
-                Salesforce
+                BLSFP
               </h6>
               <p className="whiteText">
-                <a href="#!">MDBootstrap</a>
+                <a href="https://www.britishland.com/site-services/glossary">
+                  Glossary
+                </a>
               </p>
               <p className="whiteText">
-                <a href="#!">MDWordPress</a>
+                <a href="https://www.britishland.com/site-services/privacy-notice">
+                  Privacy Notice
+                </a>
               </p>
               <p className="whiteText">
-                <a href="#!">BrandFlow</a>
+                <a href="https://www.britishland.com/site-services/terms-of-use">
+                  Terms of use
+                </a>
               </p>
               <p className="whiteText">
-                <a href="#!">Bootstrap Angular</a>
+                <a href="https://www.britishland.com/site-services/cookie-policy">
+                  Cookie Policy
+                </a>
               </p>
             </div>
 

@@ -88,19 +88,31 @@ export default withAuth(
                     {currentUserName}
                   </a>
                   <div
-                    className="dropdown-menu"
+                    className="dropdown-menu navBackground"
                     aria-labelledby="navbarDropdownMenuLink"
                   >
-                    <Link className="dropdown-item" to="/newsfuser">
+                    <Link
+                      className="dropdown-item dropdownFontColor"
+                      to="/newsfuser"
+                    >
                       Get Salesforce
                     </Link>
-                    <Link className="dropdown-item" to="/reportaproblem">
+                    <Link
+                      className="dropdown-item dropdownFontColor"
+                      to="/reportaproblem"
+                    >
                       Report a Problem
                     </Link>
-                    <Link className="dropdown-item" to="/training">
+                    <Link
+                      className="dropdown-item dropdownFontColor"
+                      to="/training"
+                    >
                       Request Training
                     </Link>
-                    <button className="dropdown-item" onClick={this.logout}>
+                    <button
+                      className="dropdown-item dropdownFontColor"
+                      onClick={this.logout}
+                    >
                       Logout
                     </button>
                   </div>

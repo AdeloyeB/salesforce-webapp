@@ -5,13 +5,14 @@ export class SFProjects extends Component {
     return (
       <section class="my-5">
         <h2 class="h1-responsive font-weight-bold text-center my-5">
-          Features
+          Salesforce
         </h2>
 
         <p class="grey-text text-center w-responsive mx-auto mb-5">
-          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-          dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-          proident, sunt in culpa qui officia deserunt mollit est laborum.
+          Salesforce Customer Relationship Management system is a combination of
+          practices, strategies and technologies that British Land uses ot
+          manage and analyse user and customer interactions. The goal is to
+          improve our client service and relations whilst driving deals.
         </p>
 
         <div class="row">
@@ -29,13 +30,12 @@ export class SFProjects extends Component {
                 <i class="fas fa-book fa-2x cyan-text" />
               </div>
               <div class="col-md-11 col-10">
-                <h5 class="font-weight-bold mb-3">
-                  Customer Relationship Management
-                </h5>
+                <h5 class="font-weight-bold mb-3">Individual KPI Dashboard</h5>
                 <p class="grey-text">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing.
-                  Reprehenderit maiores nam, aperiam minima elit assumenda
-                  voluptate velit.
+                  KPI Dashboard is designed to capture a few key metrics for how
+                  well you are using the system, how that stacks against
+                  colleagues, and the condition and status of an account and
+                  contacts that you own.
                 </p>
               </div>
             </div>
@@ -47,9 +47,10 @@ export class SFProjects extends Component {
               <div class="col-md-11 col-10">
                 <h5 class="font-weight-bold mb-3">Meeting Notes</h5>
                 <p class="grey-text">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing.
-                  Reprehenderit maiores nam, aperiam minima elit assumenda
-                  voluptate velit.
+                  Meeting Notes allows you to digitally log minutes taken in a
+                  meeting. This can be referred too and future users can look
+                  back at meeting notes that you have logged so information is
+                  never lost.
                 </p>
               </div>
             </div>
@@ -59,11 +60,12 @@ export class SFProjects extends Component {
                 <i class="far fa-money-bill-alt fa-2x deep-purple-text" />
               </div>
               <div class="col-md-11 col-10">
-                <h5 class="font-weight-bold mb-3">KPI and Team Dashboards</h5>
+                <h5 class="font-weight-bold mb-3">Team Dashboards</h5>
                 <p class="grey-text mb-0">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing.
-                  Reprehenderit maiores nam, aperiam minima elit assumenda
-                  voluptate velit.
+                  Team Dashboards have been redesigned with the goal of
+                  increasing information across a team. They give an overview of
+                  how each team is using Salesforce, and to allow all members to
+                  see activities across that team.
                 </p>
               </div>
             </div>
