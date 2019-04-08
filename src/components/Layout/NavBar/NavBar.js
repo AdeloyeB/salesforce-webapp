@@ -42,7 +42,7 @@ export default withAuth(
 
     render() {
       if (this.state.authenticated === null) return null;
-      const { currentUserEmail, currentUserName } = this.state;
+      const { currentUserName } = this.state;
 
       // const button = this.state.authenticated ? (
       //   <button onClick={this.logout}>Logout</button>
