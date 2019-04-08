@@ -1,3 +1,26 @@
 .jumboImage {
-    background-image: url(https://mdbootstrap.com/img/Photos/Others/forest2.jpg);
+    background-image: url(https://www.britishland.com/~/media/Images/B/British-Land-V4/redesign-2017/banners/homepage-banner-2018.jpg) !important;
+}
+
+.jumboText{
+    color: white;
+    background-color: #007faa;
+}
+
+.jumboBackground{
+    background-color: white;
+}
+
+.trainingText{
+    color: #007faa;
+}
+
+.vertical-center {
+    min-width: 100%;
+    /* Fallback for browsers do NOT support vh unit */
+    min-width: 100vh;
+    /* These two lines are counted as one :-)       */
+
+    display: flex;
+    align-items: center;
 }

@@ -5,6 +5,8 @@ import { Security, SecureRoute, ImplicitCallback } from "@okta/okta-react";
 import Home from "./components/pages/Home/Home";
 import Training from "./components/pages/MainTrainingPage/Training";
 import ReportAProblem from "./components/pages/ReportAProblem/ReportAProblem";
+import OneOnOneForm from "./components/pages/TrainingForms/OneOnOneForm"
+import GroupForm from "./components/pages/TrainingForms/GroupForm"
 import Login from "./components/auth/Login";
 
 import "./App.css";
@@ -33,6 +35,8 @@ class App extends Component {
                 component={ReportAProblem}
               />
               <SecureRoute path="/training" exact={true} component={Training} />
+              <SecureRoute path="/oneononetrainingform" exact={true} component={OneOnOneForm}/>
+              <SecureRoute path="/grouptrainingform" exact={true} component={GroupForm}/>
               <Route
                 path="/login"
                 render={() => <Login baseUrl="https://dev-913015.okta.com" />}
