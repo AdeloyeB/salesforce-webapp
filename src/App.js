@@ -8,6 +8,9 @@ import ReportAProblem from "./components/pages/ReportAProblem/ReportAProblem";
 import TrainingForm from "./components/pages/TrainingForms/TrainingForm";
 import Login from "./components/auth/Login";
 
+import { DB_CONFIG } from "./config/firebase";
+import firebase from "firebase/app";
+
 import "./App.css";
 
 function onAuthRequired({ history }) {
