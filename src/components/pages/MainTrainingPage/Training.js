@@ -1,8 +1,7 @@
 import React, { Component } from "react";
 
 import TrainingJumbo from "./TrainingJumbo";
-import OneOnOneJumbo from "./OneOnOneJumbo";
-import GroupTrainingJumbo from "./GroupTrainingJumbo";
+import GeneralTrainingJumbo from "./GeneralTrainingJumbo";
 import NavBar from "../../Layout/NavBar/NavBar";
 import Footer from "../../Layout/Footer/Footer";
 
@@ -13,8 +12,7 @@ export class Training extends Component {
         <NavBar />
         <div className="container">
           <TrainingJumbo />
-          <OneOnOneJumbo />
-          <GroupTrainingJumbo />
+          <GeneralTrainingJumbo />
         </div>
         <Footer />
       </div>

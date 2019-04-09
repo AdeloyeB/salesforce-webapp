@@ -5,8 +5,7 @@ import { Security, SecureRoute, ImplicitCallback } from "@okta/okta-react";
 import Home from "./components/pages/Home/Home";
 import Training from "./components/pages/MainTrainingPage/Training";
 import ReportAProblem from "./components/pages/ReportAProblem/ReportAProblem";
-import OneOnOneForm from "./components/pages/TrainingForms/OneOnOneForm"
-import GroupForm from "./components/pages/TrainingForms/GroupForm"
+import TrainingForm from "./components/pages/TrainingForms/TrainingForm";
 import Login from "./components/auth/Login";
 
 import "./App.css";
@@ -21,7 +20,7 @@ class App extends Component {
       <Router>
         {/* Security is called from OKTA. This protects our webiste. Moreover, SecureRoute requires a login before it can be accessed */}
         <Security
-          issuer="https://dev-913015.okta.com"
+          issuer="https://dev-913015.okta.com/oauth2/default"
           client_id="0oadp2qztaSFpr1Y9356"
           redirect_uri={window.location.origin + "/implicit/callback"}
           onAuthRequired={onAuthRequired}
@@ -35,8 +34,11 @@ class App extends Component {
                 component={ReportAProblem}
               />
               <SecureRoute path="/training" exact={true} component={Training} />
-              <SecureRoute path="/oneononetrainingform" exact={true} component={OneOnOneForm}/>
-              <SecureRoute path="/grouptrainingform" exact={true} component={GroupForm}/>
+              <SecureRoute
+                path="/generaltrainingform"
+                exact={true}
+                component={TrainingForm}
+              />
               <Route
                 path="/login"
                 render={() => <Login baseUrl="https://dev-913015.okta.com" />}
