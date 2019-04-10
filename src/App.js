@@ -10,9 +10,6 @@ import UserForm from "./components/pages/UserForm/UserForm";
 import Login from "./components/auth/Login";
 import MainKnowledgeBase from "./components/pages/KnowledgeBase/MainKnowledgeBase";
 
-import { DB_CONFIG } from "./config/firebase";
-import firebase from "firebase/app";
-
 import "./App.css";
 
 function onAuthRequired({ history }) {
