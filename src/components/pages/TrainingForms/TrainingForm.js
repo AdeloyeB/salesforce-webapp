@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
 
 import NavBar from "../../Layout/NavBar/NavBar";
 import Footer from "../../Layout/Footer/Footer";
@@ -56,7 +55,7 @@ export class TrainingForm extends Component {
         <NavBar />
         <div className="container">
           <form onSubmit={this.handleSubmit}>
-            <div className="form-group">
+            <div className="form-group req">
               <label>Training Owner</label>
               <input
                 type="text"
@@ -65,10 +64,11 @@ export class TrainingForm extends Component {
                 value={this.state.TrainingOwner}
                 onChange={this.handleUserInput}
                 placeholder="John Doe"
+                required
               />
             </div>
 
-            <div className="form-group">
+            <div className="form-group req">
               <label>Training Owner: Email address</label>
               <input
                 type="email"
@@ -78,10 +78,11 @@ export class TrainingForm extends Component {
                 onChange={this.handleUserInput}
                 id="exampleFormControlInput1"
                 placeholder="name@britishland.com"
+                required
               />
             </div>
 
-            <div className="form-group">
+            <div className="form-group req">
               <label>Team Manager</label>
               <input
                 type="text"
@@ -91,10 +92,11 @@ export class TrainingForm extends Component {
                 onChange={this.handleUserInput}
                 id="exampleFormControlInput1"
                 placeholder="John Doe"
+                required
               />
             </div>
 
-            <div className="form-group">
+            <div className="form-group req">
               <label>Team Name</label>
               <input
                 type="text"
@@ -104,10 +106,11 @@ export class TrainingForm extends Component {
                 onChange={this.handleUserInput}
                 id="exampleFormControlInput1"
                 placeholder="Retail"
+                required
               />
             </div>
 
-            <div className="form-group">
+            <div className="form-group req">
               <label>Team Attendees</label>
               <input
                 type="text"
@@ -117,6 +120,7 @@ export class TrainingForm extends Component {
                 onChange={this.handleUserInput}
                 id="exampleFormControlInput1"
                 placeholder="John Doe, Ryan Doe, Jessica Doe"
+                required
               />
             </div>
 

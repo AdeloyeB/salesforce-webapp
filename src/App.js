@@ -6,7 +6,9 @@ import Home from "./components/pages/Home/Home";
 import Training from "./components/pages/MainTrainingPage/Training";
 import ReportAProblem from "./components/pages/ReportAProblem/ReportAProblem";
 import TrainingForm from "./components/pages/TrainingForms/TrainingForm";
+import UserForm from "./components/pages/UserForm/UserForm";
 import Login from "./components/auth/Login";
+import MainKnowledgeBase from "./components/pages/KnowledgeBase/MainKnowledgeBase";
 
 import { DB_CONFIG } from "./config/firebase";
 import firebase from "firebase/app";
@@ -41,6 +43,16 @@ class App extends Component {
                 path="/generaltrainingform"
                 exact={true}
                 component={TrainingForm}
+              />
+              <SecureRoute
+                path="/newsfuser"
+                exact={true}
+                component={UserForm}
+              />
+              <SecureRoute
+                path="/knowledgebase"
+                exact={true}
+                component={MainKnowledgeBase}
               />
               <Route
                 path="/login"
