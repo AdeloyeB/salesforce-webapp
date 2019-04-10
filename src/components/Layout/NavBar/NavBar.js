@@ -73,7 +73,7 @@ export default withAuth(
                 </li>
                 <li className="nav-item">
                   <Link className="nav-link" to="/virtualagent">
-                    Virtual Agent
+                    Assistance
                   </Link>
                 </li>
                 <li className="nav-item dropdown">
