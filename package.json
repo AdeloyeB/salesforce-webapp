@@ -4,9 +4,10 @@
   "private": true,
   "dependencies": {
     "@okta/okta-react": "^1.2.0",
-    "@okta/okta-signin-widget": "^2.17.0",
+    "@okta/okta-signin-widget": "^2.18.0",
     "aws-amplify": "^1.1.22",
     "aws-amplify-react": "^2.3.2",
+    "canvas-prebuilt": "^2.0.0-alpha.14",
     "firebase": "^5.9.3",
     "g": "^2.0.1",
     "react": "^16.8.4",
@@ -29,5 +30,9 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "enzyme": "^3.9.0",
+    "enzyme-adapter-react-16": "^1.12.1"
+  }
 }

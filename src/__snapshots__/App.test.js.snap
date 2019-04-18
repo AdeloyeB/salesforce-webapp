@@ -1,0 +1,2691 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ContactForm should render correctly in "debug" mode 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <ContactForm
+    debug={true}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <form
+        accept-charset="UTF-8"
+        action="https://formcarry.com/s/McuktKju6em"
+        className="text-center border border-light p-4"
+        method="POST"
+      >
+        <p
+          className="h4 mb-4"
+        >
+          Report an Issue
+        </p>
+        <input
+          className="form-control mb-4 required"
+          id="ContactFormName"
+          name="name"
+          placeholder="Name"
+          type="text"
+          value=""
+        />
+        <input
+          className="form-control mb-4 required"
+          id="ContactFormEmail"
+          name="email"
+          placeholder="E-mail"
+          type="email"
+          value=""
+        />
+        <label>
+          Issue:
+        </label>
+        <select
+          className="browser-default custom-select mb-4"
+        >
+          <option
+            disabled={true}
+            value=""
+          >
+            Issue Option:
+          </option>
+          <option
+            selected={true}
+            value="1"
+          >
+            Cannot see certain Dashboard
+          </option>
+          <option
+            value="2"
+          >
+            Reset Password
+          </option>
+          <option
+            value="3"
+          >
+            Meeting Notes
+          </option>
+          <option
+            value="4"
+          >
+            Capital Projects
+          </option>
+          <option
+            value="5"
+          >
+            Data Subject Access Rights
+          </option>
+          <option
+            value="6"
+          >
+            Other
+          </option>
+        </select>
+        <div
+          className="form-group"
+        >
+          <textarea
+            className="form-control rounded-0"
+            id="FormControlTextarea2"
+            placeholder="Message"
+            rows="3"
+          />
+        </div>
+        <button
+          className="btn btn-info btn-block"
+          type="submit"
+        >
+          Send
+        </button>
+      </form>,
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "accept-charset": "UTF-8",
+        "action": "https://formcarry.com/s/McuktKju6em",
+        "children": Array [
+          <p
+            className="h4 mb-4"
+          >
+            Report an Issue
+          </p>,
+          <input
+            className="form-control mb-4 required"
+            id="ContactFormName"
+            name="name"
+            placeholder="Name"
+            type="text"
+            value=""
+          />,
+          <input
+            className="form-control mb-4 required"
+            id="ContactFormEmail"
+            name="email"
+            placeholder="E-mail"
+            type="email"
+            value=""
+          />,
+          <label>
+            Issue:
+          </label>,
+          <select
+            className="browser-default custom-select mb-4"
+          >
+            <option
+              disabled={true}
+              value=""
+            >
+              Issue Option:
+            </option>
+            <option
+              selected={true}
+              value="1"
+            >
+              Cannot see certain Dashboard
+            </option>
+            <option
+              value="2"
+            >
+              Reset Password
+            </option>
+            <option
+              value="3"
+            >
+              Meeting Notes
+            </option>
+            <option
+              value="4"
+            >
+              Capital Projects
+            </option>
+            <option
+              value="5"
+            >
+              Data Subject Access Rights
+            </option>
+            <option
+              value="6"
+            >
+              Other
+            </option>
+          </select>,
+          <div
+            className="form-group"
+          >
+            <textarea
+              className="form-control rounded-0"
+              id="FormControlTextarea2"
+              placeholder="Message"
+              rows="3"
+            />
+          </div>,
+          <button
+            className="btn btn-info btn-block"
+            type="submit"
+          >
+            Send
+          </button>,
+        ],
+        "className": "text-center border border-light p-4",
+        "method": "POST",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Report an Issue",
+            "className": "h4 mb-4",
+          },
+          "ref": null,
+          "rendered": "Report an Issue",
+          "type": "p",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "className": "form-control mb-4 required",
+            "id": "ContactFormName",
+            "name": "name",
+            "placeholder": "Name",
+            "type": "text",
+            "value": "",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "input",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "className": "form-control mb-4 required",
+            "id": "ContactFormEmail",
+            "name": "email",
+            "placeholder": "E-mail",
+            "type": "email",
+            "value": "",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "input",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Issue:",
+          },
+          "ref": null,
+          "rendered": "Issue:",
+          "type": "label",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <option
+                disabled={true}
+                value=""
+              >
+                Issue Option:
+              </option>,
+              <option
+                selected={true}
+                value="1"
+              >
+                Cannot see certain Dashboard
+              </option>,
+              <option
+                value="2"
+              >
+                Reset Password
+              </option>,
+              <option
+                value="3"
+              >
+                Meeting Notes
+              </option>,
+              <option
+                value="4"
+              >
+                Capital Projects
+              </option>,
+              <option
+                value="5"
+              >
+                Data Subject Access Rights
+              </option>,
+              <option
+                value="6"
+              >
+                Other
+              </option>,
+            ],
+            "className": "browser-default custom-select mb-4",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Issue Option:",
+                "disabled": true,
+                "value": "",
+              },
+              "ref": null,
+              "rendered": "Issue Option:",
+              "type": "option",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Cannot see certain Dashboard",
+                "selected": true,
+                "value": "1",
+              },
+              "ref": null,
+              "rendered": "Cannot see certain Dashboard",
+              "type": "option",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Reset Password",
+                "value": "2",
+              },
+              "ref": null,
+              "rendered": "Reset Password",
+              "type": "option",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Meeting Notes",
+                "value": "3",
+              },
+              "ref": null,
+              "rendered": "Meeting Notes",
+              "type": "option",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Capital Projects",
+                "value": "4",
+              },
+              "ref": null,
+              "rendered": "Capital Projects",
+              "type": "option",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Data Subject Access Rights",
+                "value": "5",
+              },
+              "ref": null,
+              "rendered": "Data Subject Access Rights",
+              "type": "option",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Other",
+                "value": "6",
+              },
+              "ref": null,
+              "rendered": "Other",
+              "type": "option",
+            },
+          ],
+          "type": "select",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <textarea
+              className="form-control rounded-0"
+              id="FormControlTextarea2"
+              placeholder="Message"
+              rows="3"
+            />,
+            "className": "form-group",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "className": "form-control rounded-0",
+              "id": "FormControlTextarea2",
+              "placeholder": "Message",
+              "rows": "3",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "textarea",
+          },
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Send",
+            "className": "btn btn-info btn-block",
+            "type": "submit",
+          },
+          "ref": null,
+          "rendered": "Send",
+          "type": "button",
+        },
+      ],
+      "type": "form",
+    },
+    "type": "section",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <form
+          accept-charset="UTF-8"
+          action="https://formcarry.com/s/McuktKju6em"
+          className="text-center border border-light p-4"
+          method="POST"
+        >
+          <p
+            className="h4 mb-4"
+          >
+            Report an Issue
+          </p>
+          <input
+            className="form-control mb-4 required"
+            id="ContactFormName"
+            name="name"
+            placeholder="Name"
+            type="text"
+            value=""
+          />
+          <input
+            className="form-control mb-4 required"
+            id="ContactFormEmail"
+            name="email"
+            placeholder="E-mail"
+            type="email"
+            value=""
+          />
+          <label>
+            Issue:
+          </label>
+          <select
+            className="browser-default custom-select mb-4"
+          >
+            <option
+              disabled={true}
+              value=""
+            >
+              Issue Option:
+            </option>
+            <option
+              selected={true}
+              value="1"
+            >
+              Cannot see certain Dashboard
+            </option>
+            <option
+              value="2"
+            >
+              Reset Password
+            </option>
+            <option
+              value="3"
+            >
+              Meeting Notes
+            </option>
+            <option
+              value="4"
+            >
+              Capital Projects
+            </option>
+            <option
+              value="5"
+            >
+              Data Subject Access Rights
+            </option>
+            <option
+              value="6"
+            >
+              Other
+            </option>
+          </select>
+          <div
+            className="form-group"
+          >
+            <textarea
+              className="form-control rounded-0"
+              id="FormControlTextarea2"
+              placeholder="Message"
+              rows="3"
+            />
+          </div>
+          <button
+            className="btn btn-info btn-block"
+            type="submit"
+          >
+            Send
+          </button>
+        </form>,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "accept-charset": "UTF-8",
+          "action": "https://formcarry.com/s/McuktKju6em",
+          "children": Array [
+            <p
+              className="h4 mb-4"
+            >
+              Report an Issue
+            </p>,
+            <input
+              className="form-control mb-4 required"
+              id="ContactFormName"
+              name="name"
+              placeholder="Name"
+              type="text"
+              value=""
+            />,
+            <input
+              className="form-control mb-4 required"
+              id="ContactFormEmail"
+              name="email"
+              placeholder="E-mail"
+              type="email"
+              value=""
+            />,
+            <label>
+              Issue:
+            </label>,
+            <select
+              className="browser-default custom-select mb-4"
+            >
+              <option
+                disabled={true}
+                value=""
+              >
+                Issue Option:
+              </option>
+              <option
+                selected={true}
+                value="1"
+              >
+                Cannot see certain Dashboard
+              </option>
+              <option
+                value="2"
+              >
+                Reset Password
+              </option>
+              <option
+                value="3"
+              >
+                Meeting Notes
+              </option>
+              <option
+                value="4"
+              >
+                Capital Projects
+              </option>
+              <option
+                value="5"
+              >
+                Data Subject Access Rights
+              </option>
+              <option
+                value="6"
+              >
+                Other
+              </option>
+            </select>,
+            <div
+              className="form-group"
+            >
+              <textarea
+                className="form-control rounded-0"
+                id="FormControlTextarea2"
+                placeholder="Message"
+                rows="3"
+              />
+            </div>,
+            <button
+              className="btn btn-info btn-block"
+              type="submit"
+            >
+              Send
+            </button>,
+          ],
+          "className": "text-center border border-light p-4",
+          "method": "POST",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Report an Issue",
+              "className": "h4 mb-4",
+            },
+            "ref": null,
+            "rendered": "Report an Issue",
+            "type": "p",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "className": "form-control mb-4 required",
+              "id": "ContactFormName",
+              "name": "name",
+              "placeholder": "Name",
+              "type": "text",
+              "value": "",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "input",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "className": "form-control mb-4 required",
+              "id": "ContactFormEmail",
+              "name": "email",
+              "placeholder": "E-mail",
+              "type": "email",
+              "value": "",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "input",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Issue:",
+            },
+            "ref": null,
+            "rendered": "Issue:",
+            "type": "label",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <option
+                  disabled={true}
+                  value=""
+                >
+                  Issue Option:
+                </option>,
+                <option
+                  selected={true}
+                  value="1"
+                >
+                  Cannot see certain Dashboard
+                </option>,
+                <option
+                  value="2"
+                >
+                  Reset Password
+                </option>,
+                <option
+                  value="3"
+                >
+                  Meeting Notes
+                </option>,
+                <option
+                  value="4"
+                >
+                  Capital Projects
+                </option>,
+                <option
+                  value="5"
+                >
+                  Data Subject Access Rights
+                </option>,
+                <option
+                  value="6"
+                >
+                  Other
+                </option>,
+              ],
+              "className": "browser-default custom-select mb-4",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Issue Option:",
+                  "disabled": true,
+                  "value": "",
+                },
+                "ref": null,
+                "rendered": "Issue Option:",
+                "type": "option",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Cannot see certain Dashboard",
+                  "selected": true,
+                  "value": "1",
+                },
+                "ref": null,
+                "rendered": "Cannot see certain Dashboard",
+                "type": "option",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Reset Password",
+                  "value": "2",
+                },
+                "ref": null,
+                "rendered": "Reset Password",
+                "type": "option",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Meeting Notes",
+                  "value": "3",
+                },
+                "ref": null,
+                "rendered": "Meeting Notes",
+                "type": "option",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Capital Projects",
+                  "value": "4",
+                },
+                "ref": null,
+                "rendered": "Capital Projects",
+                "type": "option",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Data Subject Access Rights",
+                  "value": "5",
+                },
+                "ref": null,
+                "rendered": "Data Subject Access Rights",
+                "type": "option",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Other",
+                  "value": "6",
+                },
+                "ref": null,
+                "rendered": "Other",
+                "type": "option",
+              },
+            ],
+            "type": "select",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <textarea
+                className="form-control rounded-0"
+                id="FormControlTextarea2"
+                placeholder="Message"
+                rows="3"
+              />,
+              "className": "form-group",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "className": "form-control rounded-0",
+                "id": "FormControlTextarea2",
+                "placeholder": "Message",
+                "rows": "3",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "textarea",
+            },
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Send",
+              "className": "btn btn-info btn-block",
+              "type": "submit",
+            },
+            "ref": null,
+            "rendered": "Send",
+            "type": "button",
+          },
+        ],
+        "type": "form",
+      },
+      "type": "section",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+  Symbol(enzyme.__childContext__): null,
+}
+`;
+
+exports[`NavBar should render correctly in "debug" mode 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <withAuth(NavBar)
+    debug={true}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "render": [Function],
+    },
+    "ref": null,
+    "rendered": null,
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "render": [Function],
+      },
+      "ref": null,
+      "rendered": null,
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
+
+exports[`NavBar should render correctly in "debug" mode 2`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <withAuth(NavBar)
+    debug={true}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "render": [Function],
+    },
+    "ref": null,
+    "rendered": null,
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "render": [Function],
+      },
+      "ref": null,
+      "rendered": null,
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
+
+exports[`NavBar should render correctly in "debug" mode 3`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <withAuth(NavBar)
+    debug={true}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "render": [Function],
+    },
+    "ref": null,
+    "rendered": null,
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "render": [Function],
+      },
+      "ref": null,
+      "rendered": null,
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
+
+exports[`SignInWidget should render correctly in "debug" mode 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <withAuth(NavBar)
+    debug={true}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "render": [Function],
+    },
+    "ref": null,
+    "rendered": null,
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "render": [Function],
+      },
+      "ref": null,
+      "rendered": null,
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
+
+exports[`TrainingForm should render correctly in "debug" mode 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <TrainingForm
+    debug={true}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <withAuth(NavBar) />,
+        <div
+          className="container"
+        >
+          <form
+            onSubmit={[Function]}
+          >
+            <div
+              className="form-group req"
+            >
+              <label>
+                Training Owner
+              </label>
+              <input
+                className="form-control"
+                name="TrainingOwner"
+                onChange={[Function]}
+                placeholder="John Doe"
+                required={true}
+                type="text"
+                value=""
+              />
+            </div>
+            <div
+              className="form-group req"
+            >
+              <label>
+                Training Owner: Email address
+              </label>
+              <input
+                className="form-control"
+                id="exampleFormControlInput1"
+                name="TrainingOwnerEmailAddress"
+                onChange={[Function]}
+                placeholder="name@britishland.com"
+                required={true}
+                type="email"
+                value=""
+              />
+            </div>
+            <div
+              className="form-group req"
+            >
+              <label>
+                Team Manager
+              </label>
+              <input
+                className="form-control"
+                id="exampleFormControlInput1"
+                name="TrainingManager"
+                onChange={[Function]}
+                placeholder="John Doe"
+                required={true}
+                type="text"
+                value=""
+              />
+            </div>
+            <div
+              className="form-group req"
+            >
+              <label>
+                Team Name
+              </label>
+              <input
+                className="form-control"
+                id="exampleFormControlInput1"
+                name="TrainingTeam"
+                onChange={[Function]}
+                placeholder="Retail"
+                required={true}
+                type="text"
+                value=""
+              />
+            </div>
+            <div
+              className="form-group req"
+            >
+              <label>
+                Team Attendees
+              </label>
+              <input
+                className="form-control"
+                id="exampleFormControlInput1"
+                name="TrainingAttendees"
+                onChange={[Function]}
+                placeholder="John Doe, Ryan Doe, Jessica Doe"
+                required={true}
+                type="text"
+                value=""
+              />
+            </div>
+            <div
+              className="form-group"
+            >
+              <label>
+                Details
+              </label>
+              <textarea
+                className="form-control"
+                id="exampleFormControlTextarea1"
+                name="TrainingContent"
+                onChange={[Function]}
+                placeholder="Hi, We need some training on: Meeting Notes, Accounts, Salesforce1 App, Contacts. Our team is new so all of us may not have Salesforce. Please check!"
+                rows="4"
+                value=""
+              />
+              <button
+                class="btn btn-dark"
+                type="submit"
+              >
+                Submit
+              </button>
+            </div>
+          </form>
+        </div>,
+        <Footer />,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {},
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <form
+            onSubmit={[Function]}
+          >
+            <div
+              className="form-group req"
+            >
+              <label>
+                Training Owner
+              </label>
+              <input
+                className="form-control"
+                name="TrainingOwner"
+                onChange={[Function]}
+                placeholder="John Doe"
+                required={true}
+                type="text"
+                value=""
+              />
+            </div>
+            <div
+              className="form-group req"
+            >
+              <label>
+                Training Owner: Email address
+              </label>
+              <input
+                className="form-control"
+                id="exampleFormControlInput1"
+                name="TrainingOwnerEmailAddress"
+                onChange={[Function]}
+                placeholder="name@britishland.com"
+                required={true}
+                type="email"
+                value=""
+              />
+            </div>
+            <div
+              className="form-group req"
+            >
+              <label>
+                Team Manager
+              </label>
+              <input
+                className="form-control"
+                id="exampleFormControlInput1"
+                name="TrainingManager"
+                onChange={[Function]}
+                placeholder="John Doe"
+                required={true}
+                type="text"
+                value=""
+              />
+            </div>
+            <div
+              className="form-group req"
+            >
+              <label>
+                Team Name
+              </label>
+              <input
+                className="form-control"
+                id="exampleFormControlInput1"
+                name="TrainingTeam"
+                onChange={[Function]}
+                placeholder="Retail"
+                required={true}
+                type="text"
+                value=""
+              />
+            </div>
+            <div
+              className="form-group req"
+            >
+              <label>
+                Team Attendees
+              </label>
+              <input
+                className="form-control"
+                id="exampleFormControlInput1"
+                name="TrainingAttendees"
+                onChange={[Function]}
+                placeholder="John Doe, Ryan Doe, Jessica Doe"
+                required={true}
+                type="text"
+                value=""
+              />
+            </div>
+            <div
+              className="form-group"
+            >
+              <label>
+                Details
+              </label>
+              <textarea
+                className="form-control"
+                id="exampleFormControlTextarea1"
+                name="TrainingContent"
+                onChange={[Function]}
+                placeholder="Hi, We need some training on: Meeting Notes, Accounts, Salesforce1 App, Contacts. Our team is new so all of us may not have Salesforce. Please check!"
+                rows="4"
+                value=""
+              />
+              <button
+                class="btn btn-dark"
+                type="submit"
+              >
+                Submit
+              </button>
+            </div>
+          </form>,
+          "className": "container",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <div
+                className="form-group req"
+              >
+                <label>
+                  Training Owner
+                </label>
+                <input
+                  className="form-control"
+                  name="TrainingOwner"
+                  onChange={[Function]}
+                  placeholder="John Doe"
+                  required={true}
+                  type="text"
+                  value=""
+                />
+              </div>,
+              <div
+                className="form-group req"
+              >
+                <label>
+                  Training Owner: Email address
+                </label>
+                <input
+                  className="form-control"
+                  id="exampleFormControlInput1"
+                  name="TrainingOwnerEmailAddress"
+                  onChange={[Function]}
+                  placeholder="name@britishland.com"
+                  required={true}
+                  type="email"
+                  value=""
+                />
+              </div>,
+              <div
+                className="form-group req"
+              >
+                <label>
+                  Team Manager
+                </label>
+                <input
+                  className="form-control"
+                  id="exampleFormControlInput1"
+                  name="TrainingManager"
+                  onChange={[Function]}
+                  placeholder="John Doe"
+                  required={true}
+                  type="text"
+                  value=""
+                />
+              </div>,
+              <div
+                className="form-group req"
+              >
+                <label>
+                  Team Name
+                </label>
+                <input
+                  className="form-control"
+                  id="exampleFormControlInput1"
+                  name="TrainingTeam"
+                  onChange={[Function]}
+                  placeholder="Retail"
+                  required={true}
+                  type="text"
+                  value=""
+                />
+              </div>,
+              <div
+                className="form-group req"
+              >
+                <label>
+                  Team Attendees
+                </label>
+                <input
+                  className="form-control"
+                  id="exampleFormControlInput1"
+                  name="TrainingAttendees"
+                  onChange={[Function]}
+                  placeholder="John Doe, Ryan Doe, Jessica Doe"
+                  required={true}
+                  type="text"
+                  value=""
+                />
+              </div>,
+              <div
+                className="form-group"
+              >
+                <label>
+                  Details
+                </label>
+                <textarea
+                  className="form-control"
+                  id="exampleFormControlTextarea1"
+                  name="TrainingContent"
+                  onChange={[Function]}
+                  placeholder="Hi, We need some training on: Meeting Notes, Accounts, Salesforce1 App, Contacts. Our team is new so all of us may not have Salesforce. Please check!"
+                  rows="4"
+                  value=""
+                />
+                <button
+                  class="btn btn-dark"
+                  type="submit"
+                >
+                  Submit
+                </button>
+              </div>,
+            ],
+            "onSubmit": [Function],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <label>
+                    Training Owner
+                  </label>,
+                  <input
+                    className="form-control"
+                    name="TrainingOwner"
+                    onChange={[Function]}
+                    placeholder="John Doe"
+                    required={true}
+                    type="text"
+                    value=""
+                  />,
+                ],
+                "className": "form-group req",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Training Owner",
+                  },
+                  "ref": null,
+                  "rendered": "Training Owner",
+                  "type": "label",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "className": "form-control",
+                    "name": "TrainingOwner",
+                    "onChange": [Function],
+                    "placeholder": "John Doe",
+                    "required": true,
+                    "type": "text",
+                    "value": "",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "input",
+                },
+              ],
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <label>
+                    Training Owner: Email address
+                  </label>,
+                  <input
+                    className="form-control"
+                    id="exampleFormControlInput1"
+                    name="TrainingOwnerEmailAddress"
+                    onChange={[Function]}
+                    placeholder="name@britishland.com"
+                    required={true}
+                    type="email"
+                    value=""
+                  />,
+                ],
+                "className": "form-group req",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Training Owner: Email address",
+                  },
+                  "ref": null,
+                  "rendered": "Training Owner: Email address",
+                  "type": "label",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "className": "form-control",
+                    "id": "exampleFormControlInput1",
+                    "name": "TrainingOwnerEmailAddress",
+                    "onChange": [Function],
+                    "placeholder": "name@britishland.com",
+                    "required": true,
+                    "type": "email",
+                    "value": "",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "input",
+                },
+              ],
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <label>
+                    Team Manager
+                  </label>,
+                  <input
+                    className="form-control"
+                    id="exampleFormControlInput1"
+                    name="TrainingManager"
+                    onChange={[Function]}
+                    placeholder="John Doe"
+                    required={true}
+                    type="text"
+                    value=""
+                  />,
+                ],
+                "className": "form-group req",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Team Manager",
+                  },
+                  "ref": null,
+                  "rendered": "Team Manager",
+                  "type": "label",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "className": "form-control",
+                    "id": "exampleFormControlInput1",
+                    "name": "TrainingManager",
+                    "onChange": [Function],
+                    "placeholder": "John Doe",
+                    "required": true,
+                    "type": "text",
+                    "value": "",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "input",
+                },
+              ],
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <label>
+                    Team Name
+                  </label>,
+                  <input
+                    className="form-control"
+                    id="exampleFormControlInput1"
+                    name="TrainingTeam"
+                    onChange={[Function]}
+                    placeholder="Retail"
+                    required={true}
+                    type="text"
+                    value=""
+                  />,
+                ],
+                "className": "form-group req",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Team Name",
+                  },
+                  "ref": null,
+                  "rendered": "Team Name",
+                  "type": "label",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "className": "form-control",
+                    "id": "exampleFormControlInput1",
+                    "name": "TrainingTeam",
+                    "onChange": [Function],
+                    "placeholder": "Retail",
+                    "required": true,
+                    "type": "text",
+                    "value": "",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "input",
+                },
+              ],
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <label>
+                    Team Attendees
+                  </label>,
+                  <input
+                    className="form-control"
+                    id="exampleFormControlInput1"
+                    name="TrainingAttendees"
+                    onChange={[Function]}
+                    placeholder="John Doe, Ryan Doe, Jessica Doe"
+                    required={true}
+                    type="text"
+                    value=""
+                  />,
+                ],
+                "className": "form-group req",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Team Attendees",
+                  },
+                  "ref": null,
+                  "rendered": "Team Attendees",
+                  "type": "label",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "className": "form-control",
+                    "id": "exampleFormControlInput1",
+                    "name": "TrainingAttendees",
+                    "onChange": [Function],
+                    "placeholder": "John Doe, Ryan Doe, Jessica Doe",
+                    "required": true,
+                    "type": "text",
+                    "value": "",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "input",
+                },
+              ],
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <label>
+                    Details
+                  </label>,
+                  <textarea
+                    className="form-control"
+                    id="exampleFormControlTextarea1"
+                    name="TrainingContent"
+                    onChange={[Function]}
+                    placeholder="Hi, We need some training on: Meeting Notes, Accounts, Salesforce1 App, Contacts. Our team is new so all of us may not have Salesforce. Please check!"
+                    rows="4"
+                    value=""
+                  />,
+                  <button
+                    class="btn btn-dark"
+                    type="submit"
+                  >
+                    Submit
+                  </button>,
+                ],
+                "className": "form-group",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Details",
+                  },
+                  "ref": null,
+                  "rendered": "Details",
+                  "type": "label",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "className": "form-control",
+                    "id": "exampleFormControlTextarea1",
+                    "name": "TrainingContent",
+                    "onChange": [Function],
+                    "placeholder": "Hi, We need some training on: Meeting Notes, Accounts, Salesforce1 App, Contacts. Our team is new so all of us may not have Salesforce. Please check!",
+                    "rows": "4",
+                    "value": "",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "textarea",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Submit",
+                    "class": "btn btn-dark",
+                    "type": "submit",
+                  },
+                  "ref": null,
+                  "rendered": "Submit",
+                  "type": "button",
+                },
+              ],
+              "type": "div",
+            },
+          ],
+          "type": "form",
+        },
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {},
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+    ],
+    "type": "section",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <withAuth(NavBar) />,
+          <div
+            className="container"
+          >
+            <form
+              onSubmit={[Function]}
+            >
+              <div
+                className="form-group req"
+              >
+                <label>
+                  Training Owner
+                </label>
+                <input
+                  className="form-control"
+                  name="TrainingOwner"
+                  onChange={[Function]}
+                  placeholder="John Doe"
+                  required={true}
+                  type="text"
+                  value=""
+                />
+              </div>
+              <div
+                className="form-group req"
+              >
+                <label>
+                  Training Owner: Email address
+                </label>
+                <input
+                  className="form-control"
+                  id="exampleFormControlInput1"
+                  name="TrainingOwnerEmailAddress"
+                  onChange={[Function]}
+                  placeholder="name@britishland.com"
+                  required={true}
+                  type="email"
+                  value=""
+                />
+              </div>
+              <div
+                className="form-group req"
+              >
+                <label>
+                  Team Manager
+                </label>
+                <input
+                  className="form-control"
+                  id="exampleFormControlInput1"
+                  name="TrainingManager"
+                  onChange={[Function]}
+                  placeholder="John Doe"
+                  required={true}
+                  type="text"
+                  value=""
+                />
+              </div>
+              <div
+                className="form-group req"
+              >
+                <label>
+                  Team Name
+                </label>
+                <input
+                  className="form-control"
+                  id="exampleFormControlInput1"
+                  name="TrainingTeam"
+                  onChange={[Function]}
+                  placeholder="Retail"
+                  required={true}
+                  type="text"
+                  value=""
+                />
+              </div>
+              <div
+                className="form-group req"
+              >
+                <label>
+                  Team Attendees
+                </label>
+                <input
+                  className="form-control"
+                  id="exampleFormControlInput1"
+                  name="TrainingAttendees"
+                  onChange={[Function]}
+                  placeholder="John Doe, Ryan Doe, Jessica Doe"
+                  required={true}
+                  type="text"
+                  value=""
+                />
+              </div>
+              <div
+                className="form-group"
+              >
+                <label>
+                  Details
+                </label>
+                <textarea
+                  className="form-control"
+                  id="exampleFormControlTextarea1"
+                  name="TrainingContent"
+                  onChange={[Function]}
+                  placeholder="Hi, We need some training on: Meeting Notes, Accounts, Salesforce1 App, Contacts. Our team is new so all of us may not have Salesforce. Please check!"
+                  rows="4"
+                  value=""
+                />
+                <button
+                  class="btn btn-dark"
+                  type="submit"
+                >
+                  Submit
+                </button>
+              </div>
+            </form>
+          </div>,
+          <Footer />,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {},
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <form
+              onSubmit={[Function]}
+            >
+              <div
+                className="form-group req"
+              >
+                <label>
+                  Training Owner
+                </label>
+                <input
+                  className="form-control"
+                  name="TrainingOwner"
+                  onChange={[Function]}
+                  placeholder="John Doe"
+                  required={true}
+                  type="text"
+                  value=""
+                />
+              </div>
+              <div
+                className="form-group req"
+              >
+                <label>
+                  Training Owner: Email address
+                </label>
+                <input
+                  className="form-control"
+                  id="exampleFormControlInput1"
+                  name="TrainingOwnerEmailAddress"
+                  onChange={[Function]}
+                  placeholder="name@britishland.com"
+                  required={true}
+                  type="email"
+                  value=""
+                />
+              </div>
+              <div
+                className="form-group req"
+              >
+                <label>
+                  Team Manager
+                </label>
+                <input
+                  className="form-control"
+                  id="exampleFormControlInput1"
+                  name="TrainingManager"
+                  onChange={[Function]}
+                  placeholder="John Doe"
+                  required={true}
+                  type="text"
+                  value=""
+                />
+              </div>
+              <div
+                className="form-group req"
+              >
+                <label>
+                  Team Name
+                </label>
+                <input
+                  className="form-control"
+                  id="exampleFormControlInput1"
+                  name="TrainingTeam"
+                  onChange={[Function]}
+                  placeholder="Retail"
+                  required={true}
+                  type="text"
+                  value=""
+                />
+              </div>
+              <div
+                className="form-group req"
+              >
+                <label>
+                  Team Attendees
+                </label>
+                <input
+                  className="form-control"
+                  id="exampleFormControlInput1"
+                  name="TrainingAttendees"
+                  onChange={[Function]}
+                  placeholder="John Doe, Ryan Doe, Jessica Doe"
+                  required={true}
+                  type="text"
+                  value=""
+                />
+              </div>
+              <div
+                className="form-group"
+              >
+                <label>
+                  Details
+                </label>
+                <textarea
+                  className="form-control"
+                  id="exampleFormControlTextarea1"
+                  name="TrainingContent"
+                  onChange={[Function]}
+                  placeholder="Hi, We need some training on: Meeting Notes, Accounts, Salesforce1 App, Contacts. Our team is new so all of us may not have Salesforce. Please check!"
+                  rows="4"
+                  value=""
+                />
+                <button
+                  class="btn btn-dark"
+                  type="submit"
+                >
+                  Submit
+                </button>
+              </div>
+            </form>,
+            "className": "container",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <div
+                  className="form-group req"
+                >
+                  <label>
+                    Training Owner
+                  </label>
+                  <input
+                    className="form-control"
+                    name="TrainingOwner"
+                    onChange={[Function]}
+                    placeholder="John Doe"
+                    required={true}
+                    type="text"
+                    value=""
+                  />
+                </div>,
+                <div
+                  className="form-group req"
+                >
+                  <label>
+                    Training Owner: Email address
+                  </label>
+                  <input
+                    className="form-control"
+                    id="exampleFormControlInput1"
+                    name="TrainingOwnerEmailAddress"
+                    onChange={[Function]}
+                    placeholder="name@britishland.com"
+                    required={true}
+                    type="email"
+                    value=""
+                  />
+                </div>,
+                <div
+                  className="form-group req"
+                >
+                  <label>
+                    Team Manager
+                  </label>
+                  <input
+                    className="form-control"
+                    id="exampleFormControlInput1"
+                    name="TrainingManager"
+                    onChange={[Function]}
+                    placeholder="John Doe"
+                    required={true}
+                    type="text"
+                    value=""
+                  />
+                </div>,
+                <div
+                  className="form-group req"
+                >
+                  <label>
+                    Team Name
+                  </label>
+                  <input
+                    className="form-control"
+                    id="exampleFormControlInput1"
+                    name="TrainingTeam"
+                    onChange={[Function]}
+                    placeholder="Retail"
+                    required={true}
+                    type="text"
+                    value=""
+                  />
+                </div>,
+                <div
+                  className="form-group req"
+                >
+                  <label>
+                    Team Attendees
+                  </label>
+                  <input
+                    className="form-control"
+                    id="exampleFormControlInput1"
+                    name="TrainingAttendees"
+                    onChange={[Function]}
+                    placeholder="John Doe, Ryan Doe, Jessica Doe"
+                    required={true}
+                    type="text"
+                    value=""
+                  />
+                </div>,
+                <div
+                  className="form-group"
+                >
+                  <label>
+                    Details
+                  </label>
+                  <textarea
+                    className="form-control"
+                    id="exampleFormControlTextarea1"
+                    name="TrainingContent"
+                    onChange={[Function]}
+                    placeholder="Hi, We need some training on: Meeting Notes, Accounts, Salesforce1 App, Contacts. Our team is new so all of us may not have Salesforce. Please check!"
+                    rows="4"
+                    value=""
+                  />
+                  <button
+                    class="btn btn-dark"
+                    type="submit"
+                  >
+                    Submit
+                  </button>
+                </div>,
+              ],
+              "onSubmit": [Function],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <label>
+                      Training Owner
+                    </label>,
+                    <input
+                      className="form-control"
+                      name="TrainingOwner"
+                      onChange={[Function]}
+                      placeholder="John Doe"
+                      required={true}
+                      type="text"
+                      value=""
+                    />,
+                  ],
+                  "className": "form-group req",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Training Owner",
+                    },
+                    "ref": null,
+                    "rendered": "Training Owner",
+                    "type": "label",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "className": "form-control",
+                      "name": "TrainingOwner",
+                      "onChange": [Function],
+                      "placeholder": "John Doe",
+                      "required": true,
+                      "type": "text",
+                      "value": "",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "input",
+                  },
+                ],
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <label>
+                      Training Owner: Email address
+                    </label>,
+                    <input
+                      className="form-control"
+                      id="exampleFormControlInput1"
+                      name="TrainingOwnerEmailAddress"
+                      onChange={[Function]}
+                      placeholder="name@britishland.com"
+                      required={true}
+                      type="email"
+                      value=""
+                    />,
+                  ],
+                  "className": "form-group req",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Training Owner: Email address",
+                    },
+                    "ref": null,
+                    "rendered": "Training Owner: Email address",
+                    "type": "label",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "className": "form-control",
+                      "id": "exampleFormControlInput1",
+                      "name": "TrainingOwnerEmailAddress",
+                      "onChange": [Function],
+                      "placeholder": "name@britishland.com",
+                      "required": true,
+                      "type": "email",
+                      "value": "",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "input",
+                  },
+                ],
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <label>
+                      Team Manager
+                    </label>,
+                    <input
+                      className="form-control"
+                      id="exampleFormControlInput1"
+                      name="TrainingManager"
+                      onChange={[Function]}
+                      placeholder="John Doe"
+                      required={true}
+                      type="text"
+                      value=""
+                    />,
+                  ],
+                  "className": "form-group req",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Team Manager",
+                    },
+                    "ref": null,
+                    "rendered": "Team Manager",
+                    "type": "label",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "className": "form-control",
+                      "id": "exampleFormControlInput1",
+                      "name": "TrainingManager",
+                      "onChange": [Function],
+                      "placeholder": "John Doe",
+                      "required": true,
+                      "type": "text",
+                      "value": "",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "input",
+                  },
+                ],
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <label>
+                      Team Name
+                    </label>,
+                    <input
+                      className="form-control"
+                      id="exampleFormControlInput1"
+                      name="TrainingTeam"
+                      onChange={[Function]}
+                      placeholder="Retail"
+                      required={true}
+                      type="text"
+                      value=""
+                    />,
+                  ],
+                  "className": "form-group req",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Team Name",
+                    },
+                    "ref": null,
+                    "rendered": "Team Name",
+                    "type": "label",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "className": "form-control",
+                      "id": "exampleFormControlInput1",
+                      "name": "TrainingTeam",
+                      "onChange": [Function],
+                      "placeholder": "Retail",
+                      "required": true,
+                      "type": "text",
+                      "value": "",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "input",
+                  },
+                ],
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <label>
+                      Team Attendees
+                    </label>,
+                    <input
+                      className="form-control"
+                      id="exampleFormControlInput1"
+                      name="TrainingAttendees"
+                      onChange={[Function]}
+                      placeholder="John Doe, Ryan Doe, Jessica Doe"
+                      required={true}
+                      type="text"
+                      value=""
+                    />,
+                  ],
+                  "className": "form-group req",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Team Attendees",
+                    },
+                    "ref": null,
+                    "rendered": "Team Attendees",
+                    "type": "label",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "className": "form-control",
+                      "id": "exampleFormControlInput1",
+                      "name": "TrainingAttendees",
+                      "onChange": [Function],
+                      "placeholder": "John Doe, Ryan Doe, Jessica Doe",
+                      "required": true,
+                      "type": "text",
+                      "value": "",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "input",
+                  },
+                ],
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <label>
+                      Details
+                    </label>,
+                    <textarea
+                      className="form-control"
+                      id="exampleFormControlTextarea1"
+                      name="TrainingContent"
+                      onChange={[Function]}
+                      placeholder="Hi, We need some training on: Meeting Notes, Accounts, Salesforce1 App, Contacts. Our team is new so all of us may not have Salesforce. Please check!"
+                      rows="4"
+                      value=""
+                    />,
+                    <button
+                      class="btn btn-dark"
+                      type="submit"
+                    >
+                      Submit
+                    </button>,
+                  ],
+                  "className": "form-group",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Details",
+                    },
+                    "ref": null,
+                    "rendered": "Details",
+                    "type": "label",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "className": "form-control",
+                      "id": "exampleFormControlTextarea1",
+                      "name": "TrainingContent",
+                      "onChange": [Function],
+                      "placeholder": "Hi, We need some training on: Meeting Notes, Accounts, Salesforce1 App, Contacts. Our team is new so all of us may not have Salesforce. Please check!",
+                      "rows": "4",
+                      "value": "",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "textarea",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Submit",
+                      "class": "btn btn-dark",
+                      "type": "submit",
+                    },
+                    "ref": null,
+                    "rendered": "Submit",
+                    "type": "button",
+                  },
+                ],
+                "type": "div",
+              },
+            ],
+            "type": "form",
+          },
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {},
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
+      "type": "section",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+  Symbol(enzyme.__childContext__): null,
+}
+`;
