@@ -14,10 +14,10 @@ export class KnowledgeBase extends Component {
                   <div className="row">
                     <div className="featured-box container-fluid">
                       <div className="fb-heading">
-                        Latest Video Tutorial
+                        Introduction to Salesforce
                         <div className="fb-sub-heading">
-                          <b>New to gomac?</b> Watch the video below to get
-                          started
+                          <b>New to Salesforce?</b> Watch the video below to get
+                          an idea
                           <br />
                         </div>
                       </div>
@@ -44,12 +44,7 @@ export class KnowledgeBase extends Component {
                   <hr className="style-three" />
                   <div className="row">
                     <div className="col-md-6 margin-bottom-20">
-                      <div clasNames="fat-heading-abb">
-                        <a href="single-category.html">
-                          <i className="fa fa-folder" /> General
-                          <span className="cat-count">(10)</span>
-                        </a>
-                      </div>
+                      <div clasNames="fat-heading-abb" />
                       <div className="fat-content-small padding-left-30">
                         <ul>
                           <li>
@@ -85,13 +80,7 @@ export class KnowledgeBase extends Component {
                       </div>
                     </div>
                     <div className="col-md-6 margin-bottom-20">
-                      <div className="fat-heading-abb">
-                        <a href="single-category.html">
-                          <i className="fa fa-folder" />
-                          Account Settings
-                          <span className="cat-count">(6)</span>
-                        </a>
-                      </div>
+                      <div className="fat-heading-abb" />
                       <div className="fat-content-small padding-left-30">
                         <ul>
                           <li>
