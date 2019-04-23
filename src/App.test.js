@@ -35,17 +35,25 @@ describe("NavBar", () => {
   });
 });
 
-// describe("Login", () => {
-//   it('should render correctly in "debug" mode', () => {
-//     const component = shallow(<Login debug />);
+describe("Login", () => {
+  it('should render correctly in "debug" mode', () => {
+    const component = shallow(<Login debug />);
 
-//     expect(component).toMatchSnapshot();
-//   });
-// });
+    expect(component).toMatchSnapshot();
+  });
+});
 
 describe("SignInWidget", () => {
   it('should render correctly in "debug" mode', () => {
     const component = shallow(<SignInWidget debug />);
+
+    expect(component).toMatchSnapshot();
+  });
+});
+
+describe("N", () => {
+  it('should render correctly in "debug" mode', () => {
+    const component = shallow(<NavBar debug />);
 
     expect(component).toMatchSnapshot();
   });
