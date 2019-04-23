@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Redirect } from "react-router-dom";
-import SignInWidget from "SignInWidget"
+import SigninWidget from "./SigninWidget"
 import { withAuth } from "@okta/okta-react";
 
 export default withAuth(
@@ -45,7 +45,7 @@ export default withAuth(
       return this.state.authenticated ? (
         <Redirect to={{ pathname: "/" }} />
       ) : (
-        <SignInWidget
+        <SigninWidget
           baseUrl={this.props.baseUrl}
           onSuccess={this.onSuccess}
           onError={this.onError}
